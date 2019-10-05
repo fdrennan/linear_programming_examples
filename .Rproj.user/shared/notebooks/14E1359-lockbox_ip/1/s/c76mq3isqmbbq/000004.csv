@@ -1,0 +1,115 @@
+"0","model %>%
+  solve_model(with_ROI(solver = ""symphony"", verbosity = 1)) %>% 
+  get_solution(x[i, j]) %>%
+  filter(value > 0) %>%
+  arrange(i)
+"
+"1","Starting Preprocessing...
+"
+"1","Preprocessing finished...
+ 	 with no modifications...
+Problem has 
+	 20 constraints 
+	 110 variables 
+	 210 nonzero coefficients
+
+Total Presolve Time: 0.000337...
+
+Solving...
+
+granularity set at 1.000000
+solving root lp relaxation
+The LP value is: 5.945 [0,37]
+
+"
+"1","
+****** Found Better Feasible Solution !
+****** Cost: 7.000000
+
+"
+"1","
+****************************************************
+* Optimal Solution Found                           *
+* Now displaying stats and best solution f"
+"1","ound...  *
+****************************************************
+
+======================= CP Timing ===========================
+  Cut Pool                  0.000
+====================== LP/CG Timing =========================
+  LP Solution Time          0.084
+  LP Setup Time             0.001
+  Variable Fixing           0.000
+  Pricing                   0.000
+  Strong Branching          0.012
+  Separation                0.085
+  Primal Heuristics         0.005
+  Communication             0.000
+================="
+"1","== Parallel Overhead ======================
+  Communication         0.000
+  Ramp Up Time (TM)     0.000
+  Ramp Down Time        0.000
+  Total User Time              0.188
+  Total Wallclock Time         0.193
+
+====================== Statistics =========================
+Number of created nodes :       83
+Number of analyzed nodes:       83
+Depth of tree:                  11
+Size of the tree:               83
+Number of solutions found:      1
+Number of solutions in pool:    1
+Number of Chains:               42
+"
+"1","Number of Diving Halts:         0
+Number of cuts in cut pool:     0
+Lower Bound in Root:            6.000
+
+======================= LP Solver =========================
+Number of times LP solver called:                 218
+Number of calls from feasibility pump:            0
+Number of calls from strong branching:            54
+Number of solutions found by LP solve:            0
+Number of bounds changed by strong branching:     2
+Number of nodes pruned by strong branching:       0
+Number of bounds changed by br"
+"1","anching presolver:  0
+Number of nodes pruned by branching presolver:    0
+
+==================== Primal Heuristics ====================
+                             Time      #Called   #Solutions
+Rounding I                   0.00          195            0 
+Rounding II                  0.00           59            1 
+Diving                       0.00            2            0 
+     VecLF_                  0.00            2            0
+     GuidedF_                0.00            2            0
+     COverF_  "
+"1","               0.00 
+     EucF_                   0.00 
+     RankF_                  0.00 
+     FracF_                  0.00            2            0
+     VecL_                   0.00 
+     Guided_                 0.00 
+     COver_                  0.00 
+     Euc_                    0.00 
+     Rank_                   0.00 
+     Frac_                   0.00 
+Feasibility Pump             0.00 
+Local Search                 0.00            1            0 
+Restricted Search            0.00            2         "
+"1","   0 
+Rins Search                  0.00 
+Local Branching              0.00            1            0 
+
+=========================== Cuts ==========================
+Accepted:                         2344
+Added to LPs:                     2110
+Deleted from LPs:                 2158
+Removed because of bad coeffs:    678
+Removed because of duplicacy:     255
+Insufficiently violated:          0
+In root:                          832
+
+Time in cut generation:              0.06
+Time in checking quality and adding: 0."

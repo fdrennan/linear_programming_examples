@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1570242970933.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "21146E5F",
+    "lastKnownWriteTime" : 1570244486,
+    "last_content_update" : 1570253540467,
+    "path" : "~/r_projects/linear_programming_examples/lockbox_ip.Rmd",
+    "project_path" : "lockbox_ip.Rmd",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
